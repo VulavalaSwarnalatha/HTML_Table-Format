@@ -1,0 +1,36 @@
+.sales-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .sales-table caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .sales-table th, .sales-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .sales-table th {
+    background-color: palegoldenrod;
+  }
+  
+  .sales-table tr:nth-child(5n + 1),
+.sales-table tr:nth-child(5n + 2),
+.sales-table tr:nth-child(5n + 3) {
+  background-color: lightblue;
+}
+
+.sales-table tr:nth-child(5n + 4),
+.sales-table tr:nth-child(5n + 5) {
+  background-color: lightblue;
+}
+
+
+
+
+
